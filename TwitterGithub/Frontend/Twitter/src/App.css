@@ -1,0 +1,92 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+#root{
+  display: flex;
+}
+nav{
+  height: 100vh;
+  width: 20vw;
+  background-color: rgb(12, 12, 12);
+  border-right:0.5px solid white ;
+}
+.logo{
+  height: 70px;
+  width: 70px;
+  border-radius: 20px;
+  margin: 10px;
+}
+ul{
+  text-align:start;
+}
+li{
+  list-style: none;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 10px;
+  border-bottom: 0.5px solid white;
+}
+.logout{
+  background-color:rgb(54, 218, 218) ;
+  color: black;
+  position: relative;
+  top:150px;
+  left: 10px;
+  width: 190px;
+}
+
+.form{
+  height: 400px;
+  width: 400px;
+  background-color: rgb(22, 22, 22);
+  border-radius: 20px;
+  text-align: center;
+  margin: 60px;
+}
+.formin{
+  height: 230px;
+  width: 400px;
+  background-color: rgb(22, 22, 22);
+  border-radius: 20px;
+  text-align: center;
+  margin: 60px;
+}
+input{
+  height: 35px;
+  width: 260px;
+  margin-top: 30px;
+}
+.container{
+  height: 98vh;
+  width: 80vw;
+  background-color: rgb(0, 0, 0);
+  overflow: auto;
+  margin-top: 30px;
+}
+.card{
+  height: 380px;
+  width: 400px;
+  border: 0.5px solid white;
+  margin-bottom: 20px;
+  position: relative;
+  left: 300px;
+}
+.conimg{
+height: 200px;
+width: 400px;
+}
+.header{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.footer{
+  border-top:0.5px solid white;
+}
+.conti{
+  height: 400px;
+  width: 400px;
+  background-color: rgb(24, 24, 24);
+  border-radius: 20px;
+}
